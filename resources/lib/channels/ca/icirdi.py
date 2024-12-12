@@ -19,10 +19,11 @@ URL_API = 'https://api.radio-canada.ca/validationMedia/v1/Validation.html'
 
 URL_LIVE = URL_API + '?connectionType=broadband&output=json&multibitrate=true&deviceType=ipad&appCode=medianetlive&idMedia=rdi'
 
-
 @Resolver.register
 def get_live_url(plugin, item_id, **kwargs):
 
     resp = urlquick.get(URL_LIVE)
     json_parser = json.loads(resp.text)
-    return resolver_proxy.get_stream_with_quality(plugin, video_url=json_parser["url"], manifest_type="hls")
+    url_video = json_parser["url"]
+
+    return resolver_proxy.get_stream_with_quality(plugin, video_url=url_video, manifest_type="hls")
