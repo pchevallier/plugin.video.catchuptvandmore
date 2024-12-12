@@ -58,6 +58,14 @@ menu = {
         'enabled': True,
         'order': 8
     },
+    'CBC': {
+        'route': '/resources/lib/channels/ca/cbc:list_categories',
+        'label': 'CBC',
+        'thumb': 'channels/ca/cbc.png',
+        'fanart': 'channels/ca/cbc_fanart.jpg',
+        'enabled': True,
+        'order': 11
+    },
     'telemag': {
         'route': '/resources/lib/channels/ca/telemag:list_programs',
         'label': 'Télé-Mag',

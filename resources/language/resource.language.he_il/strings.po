@@ -578,6 +578,21 @@ msgctxt "#30263"
 msgid "SFR TV password"
 msgstr ""
 
+msgctxt "#30264"
+msgid "ICI Tou.TV login"
+msgstr ""
+
+msgctxt "#30265"
+msgid "ICI Tou.TV password"
+msgstr ""
+
+msgctxt "#30266"
+msgid "CBC login"
+msgstr ""
+
+msgctxt "#30267"
+msgid "CBC password"
+msgstr ""
 
 # TV integration (from 30270 to 30289)
 

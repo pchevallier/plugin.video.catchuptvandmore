@@ -138,6 +138,13 @@
             <setting label="30258" type="text" id="rtbf.login" default=""/>
             <setting label="30259" type="text" id="rtbf.password" option="hidden" default=""/>
 
+        <setting label="30086" type="lsep" subsetting="true" visible="eq(1,true)"/>
+            <setting label="30266" type="text" id="CBC.login" default=""/>
+            <setting label="30267" type="text" id="CBC.password" option="hidden" default=""/>
+
+            <setting label="30264" type="text" id="icitoutv.login" default=""/>
+            <setting label="30265" type="text" id="icitoutv.password" option="hidden" default=""/>
+
         <setting label="30084" type="lsep" subsetting="true" visible="eq(1,true)"/>
         <!--<setting label="" type="bool" id="be" default="true" visible="false"/>-->
 
